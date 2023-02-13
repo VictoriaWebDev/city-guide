@@ -1,0 +1,260 @@
+/* Specification */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #304041;
+    letter-spacing: 0.05em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container__full-height {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn {
+    padding: 18px 0 17px;
+    background: #23CF7D;
+    border: 1px solid #23CF7D;
+    border-radius: 119px;
+    font-weight: 800;
+    color: #fff;
+    display: block;
+    width: 247px;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #24B06D;
+    border: 1px solid #24B06D;
+}
+
+.btn-ghost {
+    background: none;
+    color: #23CF7D;
+    width: 332px;
+}
+
+.btn-ghost:hover {
+    background: #23CF7D;
+    color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    margin-bottom: 100px;
+}
+
+/* Header */
+
+.header {
+    background: linear-gradient(180deg, rgba(121, 181, 196, 0) 1.39%, rgba(19, 75, 85, 0.26) 44.44%), url('../img/header-bg.png') no-repeat center top / cover;
+    text-align: center;
+    color: #fff;
+    padding: 90px 0 79px;
+}
+
+.logo__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.offer {
+    margin: 201px 0 217px;
+}
+
+.offer__title {
+    font-size: 60px;
+    letter-spacing: 0.145em;
+}
+
+.offer__title span {
+    letter-spacing: 0.05em;
+    line-height: 1.3em;
+    font-size: 15px;
+    color: #000;
+    display: block;
+    background: #fff;
+    padding: 7px 17px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 78px;
+    margin-bottom: 24px;
+}
+
+.offer__text {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    margin: 24px 0;
+}
+
+.offer__btn {
+    margin: 0 auto;
+}
+
+.arrow-down {
+    background: url('../img/arrow-down.svg');
+    width: 18px;
+    height: 27px;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.7;
+}
+
+.arrow-down:hover {
+    opacity: 1;
+}
+
+/* Routes */
+
+.routes {
+    padding: 144px 0 72px;
+}
+
+.route {
+    background: #EAF4F7;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.route-content {
+    padding: 111px 75px;
+    max-width: 666px;
+    width: 100%;
+}
+
+.route-content__title {
+    font-size: 24px;
+    letter-spacing: 0.05em;
+}
+
+.route-content__title span {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    color: #789AA0;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.route-content__text {
+    margin: 40px 0 48px;
+    font-size: 15px;
+    line-height: 154%;
+    letter-spacing: 0.05em;
+}
+
+.route-content__text p:not(:last-child) {
+    margin-bottom: 1.5em;
+}
+
+.route-content__btn {
+    background: #EAF4F7 url('../img/arrow-next.svg');
+    width: 68px;
+    height: 17px;
+    display: block;
+    opacity: 0.7;
+}
+
+.route-content__btn:hover {
+    opacity: 1;
+}
+
+.route__img {
+    width: 100%;
+    max-width: 474px;
+    background: url('../img/prague-photo-1.jpg') no-repeat center / cover;
+    filter: drop-shadow(0px 25px 70px rgba(4, 43, 55, 0.28));
+    border-radius: 0px 5px 5px 0px;
+}
+
+.routes-btn {
+    margin: 90px auto 0;
+}
+
+/* Сapabilities */
+
+.capabilities {
+    padding: 72px 0;
+}
+
+.capabilities-content {
+    background: url('../img/photo-prague.jpg') no-repeat right top / 50% 100%;
+    height: 626px;
+}
+
+.capabilities-list {
+    max-width: 407px;
+}
+
+.capabilities-list__item {
+    line-height: 1.25em;
+}
+
+.capabilities-list__item:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.capabilities-list__item:before {
+    content: '';
+    width: 64px;
+    height: 7px;
+    background: #4EB1B6;
+    border-radius: 23px;
+    display: block;
+    margin-bottom: 16px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 72px 0 144px;
+}
+
+.details {
+    font-size: 14px;
+    color: #5C7677;
+    display: flex;
+}
+
+.details p:first-child {
+    margin-right: 60px;
+}
